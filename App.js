@@ -46,6 +46,7 @@ export default function App() {
         allowsInlineMediaPlayback="true"
         startInLoadingState={true}
         renderLoading={LoadingIndicator}
+        allowsBackForwardNavigationGestures={true}
       />
     </SafeAreaView>
   );
